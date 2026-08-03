@@ -223,28 +223,28 @@ Although we read it fast, it is one of popular reason for **failure!**
     Many times, such constraints makes a special problem out of a general one. **Ignoring them is fatal mistake**.
 
 - Do you remember the **complexity table**? Some estimations that may help
-  N                        Complexity            Possible Algorithms & Techniques
-  10^18               O(log(N))             Binary & Ternary Search / Matrix Power / Cycle Tricks / Big Simulation Steps / Values ReRank
-  100 000 000    O(N)                     A Linear Solution - May be a greedy algorithm
-  40 000 000      O(N log N)           linear # calls to Binary & Ternary Search / Pre-processing & Querying / D & C
-  10 000             O(N2)                   adhock / DP / Greedy / D & C / B & B
-  500                  O(N3)                    adhock / DP / Greedy / ..
-  90                    O(N4)                    adhock / DP / Greedy / ...
-  30-50                                             Search with pruning - branch and bound
-  40                    O(2^N/2)              Meet in Middle
-  20                    O(2^N)                  Backtracking / Generating 2^N Subsets
-  11                    O(N!)                     Factorial / Permutations / Combination Algorithm
 
-- Sometimes the constraint is misleading and it is a "**fake**" limit:
+```latex
+N                             complexity            Possible Algorithms & Techniques
+
+10^18                       O(log(N))            Binary & Ternary Search / Matrix Power / Cycle Tricks / Big Simulation Steps / Values ReRank
+100 000 000               O(N)                    A Linear Solution - May be a greedy algorithm
+40 000 000               O(N log N)            linear # calls to Binary & Ternary Search / Pre-processing & Querying / D & C
+10 000                     O(N2)                  adhock / DP / Greedy / D & C / B & B
+500                         O(N3)                  adhock / DP / Greedy / ..
+90                           O(N4)                  adhock / DP / Greedy / ...
+30-50                                                Search with pruning - branch and bound
+40                           O(2^N/2)              Meet in Middle
+20                           O(2^N)                  Backtracking / Generating 2^N Subsets
+11                           O(N!)                  Factorial / Permutations / Combination Algorithm
+```
+
+- Sometimes the constraint is misleading and it is a "fake" limit:
   
   - E.g. what is 1st most right digit in n! where n < 10^18?    Simply starting from n = 5, answer is zero!
-    Say you need to calculate F(n) where n < 10^9, by analysis you discovered that F(n > 20) is constant, and < 20 is brute forcable!
+        Say you need to calculate F(n) where n < 10^9, by analysis you discovered that F(n > 20) is constant, and < 20 is brute forcable!
 
-- Sometimes the constraint is real, but could carefully be eliminated, e.g. Mathematics problems
-  
-  - As a trivial example for elimination is combination: Choose(1000, 997) = 1000! / (!997 * 3!) = (998 * 999 * 1000) / 6
-    Generally, your target calculations could be highly simplified
+- As a trivial example for elimination is combination: Choose(1000, 997) = 1000! / (!997 * 3!) = (998 * 999 * 1000) / 6
+  Generally, your target calculations could be highly simplified
 
 ---
-
-
