@@ -238,8 +238,7 @@ N                           Complexity            Possible Algorithms & Techniqu
 - Sometimes the constraint is misleading and it is a "fake" limit:
   
   - E.g. what is 1st most right digit in n! where n < 10^18?    Simply starting from n = 5, answer is zero!
-    
-        Say you need to calculate F(n) where n < 10^9, by analysis you discovered that F(n > 20) is constant, and < 20 is brute forcable!
+    Say you need to calculate F(n) where n < 10^9, by analysis you discovered that F(n > 20) is constant, and < 20 is brute forcable!
 
 - As a trivial example for elimination is combination: Choose(1000, 997) = 1000! / (!997 * 3!) = (998 * 999 * 1000) / 6
   Generally, your target calculations could be highly simplified
