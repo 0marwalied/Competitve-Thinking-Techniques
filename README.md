@@ -39,13 +39,13 @@
 # Reading problem statement
 
 Although we read it fast, it is one of popular reason for **failure!**
-    The best way to avoid that is to be organized - to have a **<u>DISIPLINE</u>** during reading: a systematic way of reading
+    The best way to avoid that is to be organized - to have a **<ins>DISIPLINE</ins>** during reading: a systematic way of reading
 
-1. Read the problem **<u>slowly</u>** and think in each statement.
+1. Read the problem **<ins>slowly</ins>** and think in each statement.
    
-   1. Make sure every statement does not **<u>conflict</u>** what you overall understood
+   1. Make sure every statement does not **<ins>conflict</ins>** what you overall understood
    
-   2. Re-think in a statement, If it seems a **<u>tricky</u>** statement
+   2. Re-think in a statement, If it seems a **<ins>tricky</ins>** statement
    
    3. Number All important details
 
@@ -55,7 +55,7 @@ Although we read it fast, it is one of popular reason for **failure!**
    
    2. Never to avoid any constraints, especially unusual one `(e.g. 2 * (a+b) < c)`. Try to know why such constraints.
    
-   3. Sometimes constraints make problem a special case of a general one. While general may not be solvable, **<u>a specific one could be</u>**.
+   3. Sometimes constraints make problem a special case of a general one. While general may not be solvable, **<ins>a specific one could be</ins>**.
    
    4. Ignoring constraints may push you approach problem trivially while it needs careful work `(n <= 10^18)`.
    
@@ -69,29 +69,29 @@ Although we read it fast, it is one of popular reason for **failure!**
 
 3. Race samples as long as they are traceable
    
-   1. Many times students write solutions and find samples **<u>doesn't work</u>**. They have to debug
+   1. Many times students write solutions and find samples **<ins>doesn't work</ins>**. They have to debug
       
       1. Sometimes they have code mistakes and original idea is correct.
       2. Sometimes they have code mistakes and original idea has some flaws.
-      3. Sometimes they have code mistakes and **<u>original idea is incorrect!</u>**.
+      3. Sometimes they have code mistakes and **<ins>original idea is incorrect!</ins>**.
    
    2. Sometimes samples are trivial and mislead you.
 
-4. If text is not small, Re-read the problem statement **<u>once</u>**. **<u>Make sure you you have the full picture</u>**.
+4. If text is not small, Re-read the problem statement **<ins>once</ins>**. **<ins>Make sure you you have the full picture</ins>**.
 
 5. Think in missed cases. Most of times authors don't put all basic cases. Think in them.
 
-6. **<u>Think in boundary & Especial cases</u>**. They are big source of **<u>WAs & RTEs</u>**
+6. **<ins>Think in boundary & Especial cases</ins>**. They are big source of **<ins>WAs & RTEs</ins>**
    
-   1. Think in the **<u>smallest</u>** boundaries `(e.g. n = 0, 1, 2 - R*C = {1*1, 1*2, 2*1, 2, 2} - str = "", str = "a", ...)`
+   1. Think in the **<ins>smallest</ins>** boundaries `(e.g. n = 0, 1, 2 - R*C = {1*1, 1*2, 2*1, 2, 2} - str = "", str = "a", ...)`
    
-   2. Think in the **<u>largest</u>** boundaries `(e.g. n = MAX, array is fully, string has max characters, ...)`
+   2. Think in the **<ins>largest</ins>** boundaries `(e.g. n = MAX, array is fully, string has max characters, ...)`
    
-   3. Think in **<u>especial</u>** cases `(array filled with zeros, ...)`
+   3. Think in **<ins>especial</ins>** cases `(array filled with zeros, ...)`
 
 7. Tips
    
-   1. **<u>NEVER to assume</u>** something not mentioned.
+   1. **<ins>NEVER to assume</ins>** something not mentioned.
       `(E.g. given a <= 100 - then a may be < 0 - Find count in range [a, b] - then b may be < a)`
    
    2. Make sure that you know exactly what is output and its "format"
@@ -100,39 +100,39 @@ Although we read it fast, it is one of popular reason for **failure!**
 
 # [Thinking - On papers Not on PC](https://youtu.be/olcmPKZNqnM?si=jivMMW8h7I_juog9)
 
-- Remember the comofortable zone? When you move from **<u>easy</u>** to **<u>meduim</u>** to **<u>hard</u>** problem. you suffer more.
+- Remember the comofortable zone? When you move from **<ins>easy</ins>** to **<ins>meduim</ins>** to **<ins>hard</ins>** problem. you suffer more.
   
   - The more complex of problem, the MORE thinking you need about it.
 
-- One of main problems is that **<u>coders loves the PCs</u>** and **<u>loves solving over the machine</u>**. 
+- One of main problems is that **<ins>coders loves the PCs</ins>** and **<ins>loves solving over the machine</ins>**. 
   
   - In many cases, this push them to write the solution, without doing all necessary steps first `(e.g. verifying idea/order)`
   
   - The mind will be **bounded on PC** and will keep doing "work arounds" to fix idea/code.
 
-- It is much better to think on papers away of the PC. **<u>Sketch FULL idea</u>** and **<u>verify</u>** it.
+- It is much better to think on papers away of the PC. **<ins>Sketch FULL idea</ins>** and **<ins>verify</ins>** it.
 
 - Same for implementation of a hard problem, you think more about code before writing it. 
   `Write the code on the paper, make the paper compiling 😂`
 
-- Yourself will tell you coding on PC is faster, **<u>tell her NO</u>**, this is not easy idea/code for me.
+- Yourself will tell you coding on PC is faster, **<ins>tell her NO</ins>**, this is not easy idea/code for me.
 
-- If you sketched a code/idea and later discovered a mistake in it! **<u>LEFT the machine</u>**.
+- If you sketched a code/idea and later discovered a mistake in it! **<ins>LEFT the machine</ins>**.
   
-  - **<u>Back to paper</u>**, repeat your life cycle. **<u>NEVER to think on PC</u>**.
+  - **<ins>Back to paper</ins>**, repeat your life cycle. **<ins>NEVER to think on PC</ins>**.
 
-- Finally, In Real ICPC contest, Teams are of 3, with 1 pc. When you think on paper, **<u>you save team time</u>**. 
+- Finally, In Real ICPC contest, Teams are of 3, with 1 pc. When you think on paper, **<ins>you save team time</ins>**. 
   `The team that is good at thinking on paper has 15 hours during the contest, not only 5 hours.`
 
 ---
 
 # [Thinking - Brainsotrm - Rank - Approach](https://youtu.be/7z1498LTCgg?si=5P5RPi9k3S9T6A9h)
 
-- In many times, contestants start to think in a problem, found an idea `(e.g. let's make it by DP)` and start to do **<u>"DIVING"</u>**
+- In many times, contestants start to think in a problem, found an idea `(e.g. let's make it by DP)` and start to do **<ins>"DIVING"</ins>**
   
   - By Diving I mean, keep trying to solve the problem based on an idea, but time passes with no output! 
     
-    - In other words, you are **<u>"STUCK in thinking"</u>**.
+    - In other words, you are **<ins>"STUCK in thinking"</ins>**.
     
     - Sometimes, Idea is correct, but they don't study enough algorithms to know how to continue
     
@@ -144,28 +144,28 @@ Although we read it fast, it is one of popular reason for **failure!**
 
 ## How to avoid stucking?
 
-- It is very important to **<u>BRAINSOTRM on different solutions</u>** that may work, before focusing on one way.
+- It is very important to **<ins>BRAINSOTRM on different solutions</ins>** that may work, before focusing on one way.
   
-  - E.g. Given ... Find the minium X? Think that **<u>DP</u>**, **<u>greedy</u>**, **<u>Min Cut</u>**, **<u>B & B</u>** or some **<u>adhock</u>** idea MAY do it.
+  - E.g. Given ... Find the minium X? Think that **<ins>DP</ins>**, **<ins>greedy</ins>**, **<ins>Min Cut</ins>**, **<ins>B & B</ins>** or some **<ins>adhock</ins>** idea MAY do it.
     
-    1. Try to **<u>RANK your guesses</u>** based on your analysis.
+    1. Try to **<ins>RANK your guesses</ins>** based on your analysis.
     
     2. APPROACH the problem using most probable idea to do it (which may be wrong).
     
-    3. **<u>Keep your eyes on TIME</u>**. When you start to tackle it this way?
+    3. **<ins>Keep your eyes on TIME</ins>**. When you start to tackle it this way?
     
-    4. After little analysis, **<u>rethink about your ideas RANK</u>**. Is current approach still the best?
+    4. After little analysis, **<ins>rethink about your ideas RANK</ins>**. Is current approach still the best?
 
-- **<u>No idea is a bad idea</u>**
+- **<ins>No idea is a bad idea</ins>**
   
-  - Even if think idea is ridiculous, or will never work, **<u>give it a trial</u>**.
+  - Even if think idea is ridiculous, or will never work, **<ins>give it a trial</ins>**.
     E.g. In many hard DPs one think this state is so big, we can't do it..and then an observation appears! sparce space is possible! problem is doable!
 
 ---
 
 # [Thinking - Concretely, Symbolically, Pictorially](https://youtu.be/Tm_Vlkv4mOo?si=_Rcw3E-mAdwBEwMX)
 
-- Think/solving **<u>concretely</u>** means **<u>solving the problem using examples</u>** `(e.g. Evlauting the series)`.
+- Think/solving **<ins>concretely</ins>** means **<ins>solving the problem using examples</ins>** `(e.g. Evlauting the series)`.
   
   - E.g. You are given some forumla F(n) for a Sequence: `3 * (n+5) * (n+6) / 2 + 4`.
   
@@ -173,12 +173,12 @@ Although we read it fast, it is one of popular reason for **failure!**
   
   - Typically easy and natural
   
-  - Helps much in tough **<u>pattern proplems</u>**.
+  - Helps much in tough **<ins>pattern proplems</ins>**.
   
   - Bound your mind for given example. Need carefully considering other examples.
     ![Concerete](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/05%20Thinking%20Techniques/Algorithms_Practice_06_Thinking_Concretely_Symbolically_Pictorially/Concerete.png?raw=true)
 
-- Think/solving **<u>Symbolically</u>** means instead of working using actual objects is to represent every thing Symbolically.
+- Think/solving **<ins>Symbolically</ins>** means instead of working using actual objects is to represent every thing Symbolically.
   
   - E.g. You are given some forumla F(n) for a Sequence: `3 * (n+5) * (n+6) / 2 + 4`.
   
@@ -186,22 +186,22 @@ Although we read it fast, it is one of popular reason for **failure!**
   
   - Let F2(n) = F1(n-5) ,  F2(n) = (n*(n+1))/2        ... a popular sequence
   
-  - In this one, we **<u>work over symbols not the concerete values</u>**. `E.g. X[i-1] + X[i+1] >= 2 X[i]` for every `1 <= i <= n-1`
+  - In this one, we **<ins>work over symbols not the concerete values</ins>**. `E.g. X[i-1] + X[i+1] >= 2 X[i]` for every `1 <= i <= n-1`
   
   - The more you train over it, the better you recognize the solutions. Your abstractions ability improves too.
   
-  - **<u>Sometimes, you can't recognize the solution without it!</u>**
+  - **<ins>Sometimes, you can't recognize the solution without it!</ins>**
     ![Symbolic.jpg](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/05%20Thinking%20Techniques/Algorithms_Practice_06_Thinking_Concretely_Symbolically_Pictorially/Symbolic.jpg?raw=true)
 
-- Think/solving **<u>pictorially</u>** means **<u>drawing the problem elements</u>**, their relations and figuring properties from the **<u>visualization</u>**.
+- Think/solving **<ins>pictorially</ins>** means **<ins>drawing the problem elements</ins>**, their relations and figuring properties from the **<ins>visualization</ins>**.
   
-  - In this one, we try to do **<u>visualization</u>**.
+  - In this one, we try to do **<ins>visualization</ins>**.
   
   - You could visualize input elements, their relations.
   
   - You could visualize the nature of the output.
   
-  - Many times, it appears with the **<u>concrete or Symbolic</u>**.
+  - Many times, it appears with the **<ins>concrete or Symbolic</ins>**.
     ![Pictorial.jpg](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/05%20Thinking%20Techniques/Algorithms_Practice_06_Thinking_Concretely_Symbolically_Pictorially/Pictorial.jpg?raw=true)
     ![SymbolicPictorial.jpg](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/05%20Thinking%20Techniques/Algorithms_Practice_06_Thinking_Concretely_Symbolically_Pictorially/SymbolicPictorial.jpg?raw=true)
 
@@ -216,9 +216,9 @@ Although we read it fast, it is one of popular reason for **failure!**
 - Constraints may be traditional: `3 <= N <= 50` Sometimes they are problem domain specific: `max(2*a + b, c) < d`
   
   - This one is so critical, never ignore them if you don't understand why this constraint is important
-    Many times, such constraints makes a special problem out of a general one. **<u>Ignoring them is fatal mistake</u>**.
+    Many times, such constraints makes a special problem out of a general one. **<ins>Ignoring them is fatal mistake</ins>**.
 
-- Do you remember the **<u>complexity table</u>**? Some estimations that may help
+- Do you remember the **<ins>complexity table</ins>**? Some estimations that may help
 
 ```latex
 N                           Complexity            Possible Algorithms & Techniques
@@ -247,8 +247,8 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 # [Thinking - Problem Abstraction](https://youtu.be/F0hmrbOW8nw?si=qyo0Y7M0-qOyTw-y)
 
-- **<u>"Problem Abstraction"</u>** is a great tool to have a different view of the problem, where you **<u>redefine the problem
-  in very "general" terms AWAY from the problem Domain</u>**.
+- **<ins>"Problem Abstraction"</ins>** is a great tool to have a different view of the problem, where you **<ins>redefine the problem
+  in very "general" terms AWAY from the problem Domain</ins>**.
 
 - E.g. if the problem talks about set of words, and we could translate a word to another according to a cost function.
   What is minimal cost to convert string A to string B.
@@ -263,14 +263,14 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 - But, never to drop the original problem, sometimes your abstraction drop some important domain consideration.
   E.g. Given set of points in Euclidean space, find a path with the given criteria.
-    Abstracting the problem to a general graph representation, lose the Euclidean space, which was the **<u>CLUE!</u>**
+    Abstracting the problem to a general graph representation, lose the Euclidean space, which was the **<ins>CLUE!</ins>**
     E.g. the given graph is bipartite and your abstraction dropped this feature.
 
 ---
 
 # [Thinking - Problem Reverse](https://youtu.be/0wlc8Rhyybo?si=sjQL1Qsf9D4zRevs)
 
-- Problem **<u>Reverse</u>** is to <u>**think backward in the problem definition**</u>.
+- Problem **<ins>Reverse</ins>** is to <ins>**think backward in the problem definition**</ins>.
 
 - E.g. What is probability of event X occurs.
   Reverse: What is probability of event ~X. Answer is 1 - ~X. Sometimes Calculating ~X is extremely easier than X.
