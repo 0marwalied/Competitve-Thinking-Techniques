@@ -270,7 +270,7 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 # [Thinking - Problem Reverse](https://youtu.be/0wlc8Rhyybo?si=sjQL1Qsf9D4zRevs)
 
-- Problem **<u>Reverse</u>** is to **<u>think backward in the problem definition</u>**.
+- Problem **<u>Reverse</u>** is to <u>**think backward in the problem definition**</u>.
 
 - E.g. What is probability of event X occurs.
   Reverse: What is probability of event ~X. Answer is 1 - ~X. Sometimes Calculating ~X is extremely easier than X.
