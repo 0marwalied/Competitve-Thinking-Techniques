@@ -38,7 +38,7 @@
 
 # Reading problem statement
 
-Although we read it fast, it is one of popular reason for **failure!**
+Although we read it fast, it is one of popular reason for **<ins>failure!</ins>**
     The best way to avoid that is to be organized - to have a **<ins>DISIPLINE</ins>** during reading: a systematic way of reading
 
 1. Read the problem **<ins>slowly</ins>** and think in each statement.
@@ -108,7 +108,7 @@ Although we read it fast, it is one of popular reason for **failure!**
   
   - In many cases, this push them to write the solution, without doing all necessary steps first `(e.g. verifying idea/order)`
   
-  - The mind will be **bounded on PC** and will keep doing "work arounds" to fix idea/code.
+  - The mind will be **<ins>bounded on PC</ins>** and will keep doing "work arounds" to fix idea/code.
 
 - It is much better to think on papers away of the PC. **<ins>Sketch FULL idea</ins>** and **<ins>verify</ins>** it.
 
