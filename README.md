@@ -254,7 +254,8 @@ N                           Complexity            Possible Algorithms & Techniqu
   What is minimal cost to convert string A to string B.
   
   - Problem abstraction: graph node = word, edge cost = cost function.
-        What is "shortest path" to move from Node A to Node B.
+    
+    What is "shortest path" to move from Node A to Node B.
 
 - The Power of Abstraction is that it drops with problem domain (dictionary words in the example) and give you a general definition.
   The point, our mind is filled with the basic algorithms definition - hence recognizing the target algorithm FASTER.
@@ -262,9 +263,9 @@ N                           Complexity            Possible Algorithms & Techniqu
 - So when ever you got a problem, think in some ways to abstract it, you could reach correct algorithm faster than you imagine.
 
 - But, never to drop the original problem, sometimes your abstraction drop some important domain consideration.
-      E.g. Given set of points in Euclidean space, find a path with the given criteria.
-          Abstracting the problem to a general graph representation, lose the Euclidean space, which was the **<u>CLUE!</u>**
-      E.g. the given graph is bipartite and your abstraction dropped this feature.
+  E.g. Given set of points in Euclidean space, find a path with the given criteria.
+    Abstracting the problem to a general graph representation, lose the Euclidean space, which was the **<u>CLUE!</u>**
+    E.g. the given graph is bipartite and your abstraction dropped this feature.
 
 ---
 
@@ -273,16 +274,16 @@ N                           Complexity            Possible Algorithms & Techniqu
 - Problem **<u>Reverse</u>** is to **<u>think backward in the problem definition</u>**.
 
 - E.g. What is probability of event X occurs.
-      Reverse: What is probability of event ~X. Answer is 1 - ~X. Sometimes Calculating ~X is extremely easier than X.
+  Reverse: What is probability of event ~X. Answer is 1 - ~X. Sometimes Calculating ~X is extremely easier than X.
 
 - E.g. We have 2^N subset, find subset with property X (e.g. # 1s are 5).
-      Reverse: Find subsets with property ~X (e.g. # 1s != 5). Answer = 2^N - Count ~X
+  Reverse: Find subsets with property ~X (e.g. # 1s != 5). Answer = 2^N - Count ~X
 
 - E.g. Find Minimum Summation. (many times min/max are interchangeable)
-      Reverse: Total - Maximum Summation
+  Reverse: Total - Maximum Summation
 
 - E.g. Given An "inc/decreasing" generating Sequence (Say Fibonacci), Given a value, what is its index in the sequence?
-      Reverse: Given an index, could you get its value? If so, Binary Search on X tell finding vlaue index
+  Reverse: Given an index, could you get its value? If so, Binary Search on X tell finding vlaue index
 
 - Sometimes, problem is solvable through its main definition or reversed one.
   Sometimes, the ONLY way to solve it is its reverse.
