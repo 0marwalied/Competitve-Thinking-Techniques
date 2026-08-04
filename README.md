@@ -254,7 +254,6 @@ N                           Complexity            Possible Algorithms & Techniqu
   What is minimal cost to convert string A to string B.
   
   - Problem abstraction: graph node = word, edge cost = cost function.
-    
     What is "shortest path" to move from Node A to Node B.
 
 - The Power of Abstraction is that it drops with problem domain (dictionary words in the example) and give you a general definition.
