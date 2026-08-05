@@ -241,7 +241,7 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 - Sometimes, thinking in a simpler or a special version of the given problems, helps you to build up your intuition.
 
-- Case 1: **<ins>Problem to Sub-Problems</ins>**
+- ## Case 1: **<ins>Problem to Sub-Problems</ins>**
 
   - In many cases, especially hard problems, a problem may be **<ins>decomposed of other sub-problems</ins>**.
   - Realizing these sub-problems may be easy and may be hard. **<ins>Sometimes, a problem could be divided in may ways</ins>**.
@@ -253,7 +253,7 @@ N                           Complexity            Possible Algorithms & Techniqu
   
     If could not do it, may be you need to think in other sub-problem...or tackle it in a totally different way
 
-- Case 2: **<ins>From simple to complex</ins>**
+- ## Case 2: **<ins>From simple to complex</ins>**
 
   Sometimes, you could think in a special problem/case, and then try to update the solution for general problem/case.
 
@@ -283,7 +283,7 @@ N                           Complexity            Possible Algorithms & Techniqu
 
     **<ins>Always have a vision</ins>**, how a special case may be incremented? **<ins>Don't consume lot of time without return!</ins>**
 
-- Case 3: **<ins>Simplification by Assumptions</ins>**
+- ## Case 3: **<ins>Simplification by Assumptions</ins>**
 
   **<ins>Idea is to make some assumptions that make problem easier, or special of general one.</ins>**
 
