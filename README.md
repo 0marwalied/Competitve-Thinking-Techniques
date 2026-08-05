@@ -243,47 +243,51 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 - Case 1: **<ins>Problem to Sub-Problems</ins>**
 
-  In many cases, especially hard problems, a problem may be **<ins>decomposed of other sub-problems</ins>**.
-  Realizing these sub-problems may be easy and may be hard. **<ins>Sometimes, a problem could be divided in may ways</ins>**.
+  - In many cases, especially hard problems, a problem may be **<ins>decomposed of other sub-problems</ins>**.
+  - Realizing these sub-problems may be easy and may be hard. **<ins>Sometimes, a problem could be divided in may ways</ins>**.
 
-  Sometimes problems occurs:
-  You keep trying in the sub-problem with no hope!
+  - Sometimes problems occurs:
+  
+    You keep trying in the sub-problem with no hope!
   **<ins>Always remember, you are JUST solving a sub-problem you invented.</ins>**
-  If could not do it, may be you need to think in other sub-problem...or tackle it in a totally different way
+  
+    If could not do it, may be you need to think in other sub-problem...or tackle it in a totally different way
 
 - Case 2: **<ins>From simple to complex</ins>**
 
   Sometimes, you could think in a special problem/case, and then try to update the solution for general problem/case.
 
-  E.g. Problem mentioned 3 Constraints on the returned output. What if no constraints? What if 2nd constraint only?
+  - E.g. Problem mentioned 3 Constraints on the returned output. What if no constraints? What if 2nd constraint only?
 
-  E.g. Given R*C 2D array? what if 1*1? 1*2? 2*1? 2*2 ...increment to ... R*C
+  - E.g. Given R*C 2D array? what if 1*1? 1*2? 2*1? 2*2 ...increment to ... R*C
 
-  E.g. Given a polygon? What if it was just a triangle? What if was convex?
+  - E.g. Given a polygon? What if it was just a triangle? What if was convex?
 
-  E.g. Game consist of N players? What if 1 player? 2? 3 .... N players?
+  - E.g. Game consist of N players? What if 1 player? 2? 3 .... N players?
 
-  E.g. Given a graph? What if A chain Graph? What if DAG? What if tree?
+  - E.g. Given a graph? What if A chain Graph? What if DAG? What if tree?
 
-  E.g. Given a 3D shape/array? What if 1D? What if 2D? 3D?
+  - E.g. Given a 3D shape/array? What if 1D? What if 2D? 3D?
 
-  E.g. Given set of Rectangles covering Big Space? What if their coordinates are small?
+  - E.g. Given set of Rectangles covering Big Space? What if their coordinates are small?
 
-  E.g. Find answer in the given base? What if base only is 10? base is a prime number?
+  - E.g. Find answer in the given base? What if base only is 10? base is a prime number?
 
-  E.g. **<ins>In many cases, simplification is adhock - think how to start with simple state</ins>**
+  - E.g. **<ins>In many cases, simplification is adhock - think how to start with simple state</ins>**
 
   Sometimes problems occurs:
-  E.g. you started to solve the polygon problem for convex case, BUT convex case couldn't be incremented!
-  E.g. you started to solve the graph problem for DAG case, BUT DAG case couldn't be incremented!
 
-  **<ins>Always have a vision</ins>**, how a special case may be incremented? **<ins>Don't consume lot of time without return!</ins>**
+  - E.g. you started to solve the polygon problem for convex case, BUT convex case couldn't be incremented!
+  
+  - E.g. you started to solve the graph problem for DAG case, BUT DAG case couldn't be incremented!
+
+    **<ins>Always have a vision</ins>**, how a special case may be incremented? **<ins>Don't consume lot of time without return!</ins>**
 
 - Case 3: **<ins>Simplification by Assumptions</ins>**
 
   **<ins>Idea is to make some assumptions that make problem easier, or special of general one.</ins>**
 
-  Say you have to find X, Y and Z and use them in evaluating F(X, Y, Z).
+  - Say you have to find X, Y and Z and use them in evaluating F(X, Y, Z).
   You got confused due to trying to think in all of them together.
   Start to do temporary assumptions to have thoughts about the solution. E.g. What if we SOLVED X, how to find Y and Z?
   Found it harder? Think What if we SOLVED X & Y, how to find Z?
