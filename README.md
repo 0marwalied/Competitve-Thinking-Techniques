@@ -296,7 +296,7 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 ---
 
-# [Thinking - Incrementally](http://www.youtube.com/user/nobody123497?feature=mhee)
+# [Thinking - Incrementally](https://youtu.be/5zILiqyQ2ts?si=znQ6NC-exUf9Vezh)
 
 **<ins>Incremental algorithm is one that process input step by step, in each step it finds its way to update the old state with new item.</ins>**
 
@@ -362,7 +362,7 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 ---
 
-# [Thinking - Problem Domain re-interpretation](http://www.youtube.com/user/nobody123497?feature=mhee)
+# [Thinking - Problem Domain re-interpretation](https://youtu.be/9fwHOeebIgc?si=5aK2KcJEg-XOslUO)
 
 - A problem may have a domain: E.g. given N cities find a path from A to B?
 
