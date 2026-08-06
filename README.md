@@ -242,21 +242,19 @@ N                           Complexity            Possible Algorithms & Techniqu
 - Sometimes, thinking in a simpler or a special version of the given problems, helps you to build up your intuition.
 
 - ## Case 1: **<ins>Problem to Sub-Problems</ins>**
-
   - In many cases, especially hard problems, a problem may be **<ins>decomposed of other sub-problems</ins>**.
   - Realizing these sub-problems may be easy and may be hard. **<ins>Sometimes, a problem could be divided in may ways</ins>**.
 
   - Sometimes problems occurs:
-  
+
     You keep trying in the sub-problem with no hope!
-  **<ins>Always remember, you are JUST solving a sub-problem you invented.</ins>**
-  
+    **<ins>Always remember, you are JUST solving a sub-problem you invented.</ins>**
+
     If could not do it, may be you need to think in other sub-problem...or tackle it in a totally different way
 
 - ## Case 2: **<ins>From simple to complex</ins>**
 
   Sometimes, you could think in a special problem/case, and then try to update the solution for general problem/case.
-
   - E.g. Problem mentioned 3 Constraints on the returned output. What if no constraints? What if 2nd constraint only?
 
   - E.g. Given R*C 2D array? what if 1*1? 1*2? 2*1? 2*2 ...increment to ... R*C
@@ -276,9 +274,7 @@ N                           Complexity            Possible Algorithms & Techniqu
   - E.g. **<ins>In many cases, simplification is adhock - think how to start with simple state</ins>**
 
   Sometimes problems occurs:
-
   - E.g. you started to solve the polygon problem for convex case, BUT convex case couldn't be incremented!
-  
   - E.g. you started to solve the graph problem for DAG case, BUT DAG case couldn't be incremented!
 
     **<ins>Always have a vision</ins>**, how a special case may be incremented? **<ins>Don't consume lot of time without return!</ins>**
@@ -286,11 +282,10 @@ N                           Complexity            Possible Algorithms & Techniqu
 - ## Case 3: **<ins>Simplification by Assumptions</ins>**
 
   **<ins>Idea is to make some assumptions that make problem easier, or special of general one.</ins>**
-
   - Say you have to find X, Y and Z and use them in evaluating F(X, Y, Z).
-  You got confused due to trying to think in all of them together.
-  Start to do temporary assumptions to have thoughts about the solution. E.g. What if we SOLVED X, how to find Y and Z?
-  Found it harder? Think What if we SOLVED X & Y, how to find Z?
+    You got confused due to trying to think in all of them together.
+    Start to do temporary assumptions to have thoughts about the solution. E.g. What if we SOLVED X, how to find Y and Z?
+    Found it harder? Think What if we SOLVED X & Y, how to find Z?
 
 - Generally,
   **<ins>Problem simplification helps when you can't start with an idea and is stuck.</ins>**
@@ -298,3 +293,65 @@ N                           Complexity            Possible Algorithms & Techniqu
 
 - Finally,
   The more experience you gain, the harder problems you can directly attack without simplifying them.
+
+---
+
+# [Thinking - Incrementally](http://www.youtube.com/user/nobody123497?feature=mhee)
+
+**<ins>Incremental algorithm is one that process input step by step, in each step it finds its way to update the old state with new item.</ins>**
+
+- E.g. Given N unordered Numbers, find a sorting algorithm. To think incrementally, you do the following:
+
+  [Say we have sorted the first m items], how to add the m+1 item and update array to be again sorted?
+  If we managed to do that, we found an algorithm.
+
+  Let say array is 10 2 7 4 15
+
+  Let's say we have sorted the first 3 elements (then we have 2 7 10), could we add 4th element (4)?
+  YES, move backward tell find an element 4th element is greater than it
+  Intially
+
+  2 7 10 4 NO
+
+  2 7 4 10 NO
+
+  2 4 7 10 YES
+
+  This is called **<ins>Insertion Sort</ins>** Algorithm.
+
+- E.g. Given an array, we perform K swap operations selected randomly, what is expected array?
+
+  [Say we have the answer array after m swaps], how to update the m+1 swap?
+
+  Let say we have array a b c d .. a position is prop1 to be selected in a swap, prop2 to not.
+
+  Now, let's build answer incrementally, that step by step we update the array.
+
+  For each position, it is either swapped with one of n-1 var, or not swapped. Using normal Expectation Equ
+
+  E.g, for first position : a' = a*prop2 + b*prop1 + c*prop1 + d*prop1
+
+  E.g, for second position: b' = a*prop1 + b*prop2 + c*prop1 + d*prop1
+
+  Repeat for k times. SRM575-1-2
+
+  In Many cases, **<ins>Incremental Thinking needs data sorting</ins>**, as its idea is based on growing up the solution.
+
+- E.g. Given N points in 2D space, find a convex hull of them (later we will take that algorithm)
+
+  [If we have the convex hull of the first m points], how to add the m+1 point, and update to the next convex hull?
+  CAN'T!
+
+  Let's sort the points relative to a corner point, could we do the update? YES
+
+- E.g. Given set of squares, {(-R, -R), (R, R)}, a random bomb is put inside each square.
+
+  Power of a Point is X^2 (X number of bombs in point). Total power is sum of points power. What is expected power?
+
+  Sort the rectanges based on R. Say we have expected power of first m rectanges, how to update for next? SRM526.5-1-2
+
+- Sometimes, the incremental algorithm order is big, as update operation is costive.
+  In case order doesn't affect, consider input randomization, somtimes help.
+
+- Sometimes update from state to another is systematic, that we could model it in a matrix,
+  and perfrom matrix power to get all incremental steps zipped in one matrix.
