@@ -305,17 +305,18 @@ N                           Complexity            Possible Algorithms & Techniqu
   [Say we have sorted the first m items], how to add the m+1 item and update array to be again sorted?
   If we managed to do that, we found an algorithm.
 
-  Let say array is 10 2 7 4 15
+  Let say array is `10 2 7 4 15`
 
   Let's say we have sorted the first 3 elements (then we have 2 7 10), could we add 4th element (4)?
+
   YES, move backward tell find an element 4th element is greater than it
   Intially
 
-  2 7 10 4 NO
+  `2 7 10 4 NO`
 
-  2 7 4 10 NO
+  `2 7 4 10 NO`
 
-  2 4 7 10 YES
+  `2 4 7 10 YES`
 
   This is called **<ins>Insertion Sort</ins>** Algorithm.
 
@@ -329,20 +330,23 @@ N                           Complexity            Possible Algorithms & Techniqu
 
   For each position, it is either swapped with one of n-1 var, or not swapped. Using normal Expectation Equ
 
-  E.g, for first position : a' = a*prop2 + b*prop1 + c*prop1 + d*prop1
+  E.g, for first position : `a' = a*prop2 + b*prop1 + c*prop1 + d*prop1`
 
-  E.g, for second position: b' = a*prop1 + b*prop2 + c*prop1 + d*prop1
+  E.g, for second position: `b' = a*prop1 + b*prop2 + c*prop1 + d*prop1`
 
   Repeat for k times. SRM575-1-2
 
   In Many cases, **<ins>Incremental Thinking needs data sorting</ins>**, as its idea is based on growing up the solution.
 
-- E.g. Given N points in 2D space, find a convex hull of them (later we will take that algorithm)
+- E.g. Given N points in 2D space, find a convex hull of them
 
   [If we have the convex hull of the first m points], how to add the m+1 point, and update to the next convex hull?
+
   CAN'T!
 
-  Let's sort the points relative to a corner point, could we do the update? YES
+  Let's sort the points relative to a corner point, could we do the update?
+
+  YES
 
 - E.g. Given set of squares, {(-R, -R), (R, R)}, a random bomb is put inside each square.
 
